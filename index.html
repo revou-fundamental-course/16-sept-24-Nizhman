@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <!-- logo -->
+         <div class="ijang" >
+            <img class="ganti" src="assets/pp.jpg" />
+         </div>
+
+         
+         <!-- navigation -->
+         <ul type="none" class="nav-ul">
+            <li class="nav-li"> <a href="#" class="a-navbar">Home</a></li>
+            <li class="nav-li"> <a href="%" class="a-navbar">Our Profile</a></li>
+            <li class="nav-li"> <a href="@" class="a-navbar">Portofolio</a></li>
+            <li class="nav-li"><a href="!"  class="a-navbar">Message Us</a></li>
+         </ul>
+        </nav>
+     </header>
+        <main>
+            <!-- tampilan sesudah navbar -->
+            <div> <h1 class="awal">Hi <span id ="nama">Nizar</span> welcome to my website </h1></div>
+            <div><p id="ganti" class="kedua">halo guys</div></p>
+            <br>
+            <br>
+            <br>
+            <img class="img-slideshow" src="assets/slide1.jpg"/>
+            <img class="img-slideshow" src="assets/slide2.jpg"/>
+            <img class="img-slideshow" src="assets/slide3.jpg"/>
+            <img class="img-slideshow" src="assets/slide4.jpg"/>
+            <button onclick="plusDivs(-1)">Previous</button>
+            <button onclick="plusDivs(1)">Next</button>
+            <br>
+            <div class=garis-2>
+              <h1 id="perubahan" class="ketiga">Kantor pusat</h1>
+            <div class=penyesuaian>
+             <div><img src="assets/Bogor.jpg" class="bogor"/> </div>
+             <div><img src="assets/gedungsate.jpeg" class="bandung"/> </div>
+             <div><img src="assets/ikn.jpeg" class="ikn"/></div>
+           </div>
+           <div class="pindah">
+           <div><p id="kota-1" class="bogor-2">Bogor</p></div>
+           <div><p id="kota-2" class="bandung-2">Bandung</p></div>
+           <div><p id="kota-3" class="ikn-2">IKN</p></div>
+           </div>
+            </div>
+           <br>
+           <br>
+           <br>
+           <section id="section-messageus"></section>
+            <form name="message-form" onsubmit="return validateMessage()" cl>
+               <h3>Nama :<input placeholder="Nama" type="text" name="full-name" /></h3>
+               <br>
+               <h3>Tanggal Lahir <input type="date" name="birth-date" /></h3>
+               <br>
+               <h3>Jenis Kelamin:
+               <input type="radio" id="male" name="gender" value="male"/>
+               <label for="male">Laki-laki</label>
+               <input type="radio" id="female" name="gender" value="female"/>
+               <label for="female">Perempuan</label></h3>
+               <br>
+               <h3>Pesan: <textarea placeholder="Pesan" name ="messages"></textarea></h3>
+               <br>
+               <input type="submit" value="submit"/>
+            </form>
+           </section>
+           <div>
+            <h3 >Nama : <span id="sender-full-name"></span></h3>
+            <h3>Tanggal lahir : <span id="sender-birth-date"></span></h3>
+            <h3>Jenis kelamin : <span id="sender-gender"></span></h3>
+            <h3>Pesan : <span id="sender-messages"></span></h3>
+           </div>
+         </main>
+    </header>
+    <script src="java/script.js"></script>
+   
+    <footer>
+      <div class="garis-3">
+      <div><p class="footer-nizar">Created by Nizar please ka aku udah kebingungan</p></div>
+      </div>
+    </footer>
+</body>
+</html>
