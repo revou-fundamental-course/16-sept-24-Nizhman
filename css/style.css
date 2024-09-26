@@ -1,0 +1,167 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+.ganti {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    border: 1px solid black;
+
+}
+
+nav ul {
+    display: flex; 
+    align-items: center;
+    border-radius: 1px;
+}
+
+
+nav ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+
+.nav-ul {
+    list-style-type: none;
+    
+}
+ .nav-li {
+    border: 1px solid black;
+    margin:0;
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px
+
+}
+
+.nav-li:hover {
+    background-color: aqua;
+    transition: .2s ease-in-out;
+    transition-delay: .3s ;
+}
+
+.awal {
+    text-align:justify;
+    padding: 2rem 3rem;
+    font-size: 20px;
+}
+
+.kedua {
+    text-align:justify;
+    padding: -30px -30px;
+    margin: -30px 48px; 
+}
+
+.ganti {
+    padding: -100px -500px;
+    margin: -30px -40px;
+}
+
+hr {
+    border: 1px solid black;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+    justify-content:left;
+}
+
+.ketiga {
+    font-size: 20px;
+    padding: 2rem 3rem;
+}
+
+.bogor {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+    
+}
+
+
+
+.bandung {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+}
+
+.ikn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.penyesuaian {
+    display: flex;
+    flex-direction: row;
+    margin: 1px 50px;
+    justify-content: space-between;
+}
+
+
+
+.a-navbar {
+    text-decoration: none;
+}
+
+.garis {
+    border: 1px solid black;
+
+}
+
+.pindah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1px 80px;
+}
+
+.garis-2 {
+    border: 1px solid black;
+    padding: -1000px;
+
+}
+
+.garis-3 {
+    border: 1px solid black;
+    text-align: end;
+
+}
+
+.img-slideshow {
+    justify-content: center;
+    text-align: center;
+    width: 1262px;
+    height: 600px;
+
+}
+
+.formulir {
+    justify-content: center;
+    align-items:start;
+    padding: 3rem 3rem;
+    margin: 0;
+}
+
+.rapih {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
